@@ -12,11 +12,11 @@ const router = Router();
 
 router.get("/products", getProducts);
 
-router.post("/products", createNewProduct);
+//router.post("/products", createNewProduct);
 
 router.get("/products/count", getTotalProducts);
 
-router.get("/products/:id", getProductById);
+//router.get("/products/:id", getProductById);
 
 router.delete("/products/:id", deleteProductById);
 
