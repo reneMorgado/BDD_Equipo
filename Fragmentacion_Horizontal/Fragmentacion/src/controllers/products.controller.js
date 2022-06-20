@@ -61,10 +61,11 @@ export const updateSubcategory = async (req, res) => {
     const{productId, subcategoriaID} = req.body;
     const pool = await getConnection();
     const result= await pool.request()
-      .input("Correo", productId)
-      .input("", subcategoriaID)
-      .execute('sp_ActualizaCorreo');
+      .input("productId", productId)
+      .input("subcategoriaId", subcategoriaID)
+      .execute('sp_ActualizarSubcatego');
     console.log(result)
+    console.log(req.body);
     res.json(result.recordset);
   } catch (error) {
     res.status(500);
