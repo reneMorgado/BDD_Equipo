@@ -1,3 +1,4 @@
+// Guarda las consultas a ocupar en la aplicación
 export const querys = {
   getAllProducts: "SELECT*FROM openquery(MYSQL,'SELECT  *FROM production.workorder limit 10;')",
   getProducById: "SELECT * FROM Products Where Id = @Id",

@@ -1,4 +1,3 @@
-
 // Guarda las consultas a ocupar en la aplicación
 export const querys = {
   getOrderForTerritory: "SELECT SalesPersonID, COUNT(Sales.SalesOrderHeader.TerritoryID) FROM Sales.SalesOrderHeader INNER JOIN Sales.SalesPerson ON Sales.SalesOrderHeader.SalesPersonID = Sales.SalesPerson.BusinessEntityID GROUP BY SalesPersonID ORDER BY COUNT(*) DESC",

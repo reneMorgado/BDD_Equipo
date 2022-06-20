@@ -32,9 +32,9 @@ npm run dev
 
 Y con eso podremos lanzar peticiones a las rutas indicadas
 
-- {api}/empleados - Encargada de obtener los empleados desde la base de datos
-- {api}//ordenes - Encargada de obtener los datos del cliente con más ordenes solicitadas en norte américa desde la base de datos
-- {api}/ofertas - Encargada de obtener las ofertas que tienen los productos de la categoría bikes desde la base de datos
-- {api}/productos - Encargada de obtener los tres productos menos solicitados en europa desde la base de datos
-- {api}/clientes - Encargada de listar los clientes del territorio 1 y 4 que no tengan asociado un valor en personId
-- {api}/subcategoria - Encargada de actualizar la subcategoría de los productos con productId del 1 al 4 a la subcategoría valida para el tipo de producto en la base de datos
+GET - {api}/empleados - Encargada de obtener los empleados desde la base de datos
+GET - {api}//ordenes - Encargada de obtener los datos del cliente con más ordenes solicitadas en norte américa desde la base de datos
+GET - {api}/ofertas - Encargada de obtener las ofertas que tienen los productos de la categoría bikes desde la base de datos
+GET - {api}/productos - Encargada de obtener los tres productos menos solicitados en europa desde la base de datos
+GET - {api}/clientes - Encargada de listar los clientes del territorio 1 y 4 que no tengan asociado un valor en personId
+PUT - {api}/subcategoria - Encargada de actualizar la subcategoría de los productos con productId del 1 al 4 a la subcategoría valida para el tipo de producto en la base de datos

@@ -1,4 +1,6 @@
 import { Router } from "express";
+
+// Importa los controladores para asignarlos a rutas específicas
 import {
   getProducts,
   createNewProduct,
@@ -8,18 +10,13 @@ import {
   updateProductById,
 } from "../controllers/products.controller";
 
+// Genera un router para manejo de rutas
 const router = Router();
 
+// Se asigna una función de comportamiento a cada ruta
 router.get("/products", getProducts);
-
-//router.post("/products", createNewProduct);
-
 router.get("/products/count", getTotalProducts);
-
-//router.get("/products/:id", getProductById);
-
 router.delete("/products/:id", deleteProductById);
-
 router.put("/products/:id", updateProductById);
 
 export default router;

@@ -21,6 +21,4 @@ router.get("/productos", getProducts);
 router.get("/clientes", getClientes);
 router.put("/subcategoria", updateSubcategory)
 
-
-
 export default router;
