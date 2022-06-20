@@ -1,0 +1,30 @@
+############################-INTEGRANTES-############################
+
+Lopez Navarrete Sergio Hidekel
+Moreno Galicia Jesús Antonio
+Morgado Resendiz Lisardo René
+
+############################-RUTAS-############################
+
+Aplicación node ---------------------------- ./DAO/node-sqlserver-restapi-main/
+
+Consultas ------------------- ./DAO/DAO.sql
+
+############################-ARCHIVOS-############################
+
+src/index.js: Archivo que inicia el servidor
+
+src/app.js: Archivo principal de la aplicación
+
+src/config.js: Archivo con las configuraciones básicas para correr el servidor, como credenciales de la base de datos
+
+src/routes/products.routes.js: Archvio que guarda la ruta dentro de la api para cada controlador
+
+src/database/connection.js: Archivo que se encarga de realizar la conexión con la base de datos
+
+src/database/index.js: Archivo principal en el que se exporta la conexión y los querys
+
+src/database/querys.js: Archivo que guarda las querys en lenguaje sql a ejecutar
+
+src/controllers/products.controller.js: Archivo con Código js que gestiona las conexiones conforme a la ruta consultada
+

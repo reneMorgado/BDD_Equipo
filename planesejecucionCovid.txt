@@ -1,0 +1,16 @@
+############################-INTEGRANTES-############################
+
+Lopez Navarrete Sergio Hidekel
+Moreno Galicia Jesús Antonio
+Morgado Resendiz Lisardo René
+
+############################-RUTAS-############################
+
+Consultas ------------------- ./Planes_De_Ejecucion/
+
+
+############################-ARCHIVOS-############################
+
+Consultas planes de ejecucion.sql: Archivo que contiene las consultas optimizdas para realizar planes de ejecucion
+
+PlanEjecucion.sql: Archivo que contiene las consultas para los planes de ejecucion de la base de datos covid
