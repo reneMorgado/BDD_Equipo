@@ -10,6 +10,8 @@ Aplicación node ---------------------------- ./Fragmentacion_Horizontal/Fragmen
 
 Consultas ------------------- ./Fragmentacion_Horizontal/FragmentacionHorizontal.sql
 
+Consulta Distribuida ------------------- ./Fragmentacion_Horizontal/ConsultaDistribuida.sql
+
 ############################-ARCHIVOS-############################
 
 src/index.js: Archivo que inicia el servidor
@@ -28,3 +30,7 @@ src/database/querys.js: Archivo que guarda las querys en lenguaje sql a ejecutar
 
 src/controllers/products.controller.js: Archivo con Código js que gestiona las conexiones conforme a la ruta consultada
 
+############################-DESCRIPCIÓN-############################
+
+La fragmentación que nosotros empleamos fue de tipo de Horizontal, la cual nos basamos en una fragmentación primaria por territorio, posteriormente utilizamos la fragmentación derivada para poder
+fragmentar las tablas de SalesOrderHeader Y Sales.Customer, así mismo la fragmentación la exportamos a una instancia MySQL para utilizar un servidor vinculado y obtener consultas desde el Linked Server. 
